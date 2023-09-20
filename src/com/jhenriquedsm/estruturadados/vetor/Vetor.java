@@ -38,6 +38,19 @@ public class Vetor {
 
         return true;
     }
+    // vetor[1] = vetor[2]
+    // vetor[2] = vetor[3]
+    // vetor[3] = vetor[4]
+    public void remover(int posicao){
+        if (!(posicao >= 0 && posicao < tamanho)){
+            throw new IllegalArgumentException("Posição inválida!");
+        }
+        for (int i = posicao; i < this.tamanho - 1; i++){
+            this.elementos[i] = this.elementos[i + 1];
+        }
+        this.tamanho--;
+    }
+
 
     private void aumentarCapacidade(){
         if (this.tamanho == this.elementos.length){
