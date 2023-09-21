@@ -1,7 +1,6 @@
-package com.jhenriquedsm.estruturadados.teste.vetor;
+package com.jhenriquedsm.estruturadados.vetor.teste;
 
 import com.jhenriquedsm.estruturadados.vetor.Lista;
-import com.jhenriquedsm.estruturadados.vetor.VetorObjetos;
 
 public class Aula11 {
     public static void main(String[] args) {

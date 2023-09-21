@@ -1,4 +1,4 @@
-package com.jhenriquedsm.estruturadados.teste.vetor;
+package com.jhenriquedsm.estruturadados.vetor.teste;
 
 import java.util.ArrayList;
 
