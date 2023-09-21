@@ -89,6 +89,10 @@ public class Lista <T>{
         return -1;
     }
 
+    public boolean contains(T elemento){
+        return busca(elemento) > -1;
+    }
+
     @Override
     public String toString() {
         StringBuilder s = new StringBuilder();
