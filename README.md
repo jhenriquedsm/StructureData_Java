@@ -17,7 +17,7 @@
 ### Exercicios:
 - [x] Exercício 1 - Melhore a classe Lista e implemente o metódo contains da classe ArrayList.
 - [x] Exercício 2 - Melhore a classe Lista e implemente o metódo ultimoIndice, semelhante ao método lastIndexOf da classe ArrayList
-- [ ] Exercício 3 - Melhore a classe Lista e implemente o método remove(T elemento), onde será possível remover um elemento da lista passando o mesmo como parâmetro.
+- [x] Exercício 3 - Melhore a classe Lista e implemente o método remove(T elemento), onde será possível remover um elemento da lista passando o mesmo como parâmetro.
 - [ ] Exercício 4 - Melhore a classe Lista e implemente o método obtem(int posicao), onde será possível obter o elemento de uma posição do vetor. Este método é semelhante ao método get(int posicao) da classe ArrayList.
 - [ ] Exercício 5 - Melhore a classe Lista e implemente o método limpar, onde todos os elementos da lista são removidos. Esse método é semelhante ao método clear da classe ArrayList.
 - [ ] Exercício 6 - Utilize a classe contato e desenvolva os seguintes itens:
