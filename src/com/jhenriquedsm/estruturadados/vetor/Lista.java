@@ -93,6 +93,15 @@ public class Lista <T>{
         return busca(elemento) > -1;
     }
 
+    public int ultimoIndice (T elemento){
+        for (int i = this.tamanho - 1; i >= 0; i--){
+            if (this.elementos[i].equals(elemento)){
+                return i;
+            }
+        }
+        return -1;
+    }
+
     @Override
     public String toString() {
         StringBuilder s = new StringBuilder();
