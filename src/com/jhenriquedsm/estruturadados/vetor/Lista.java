@@ -108,6 +108,10 @@ public class Lista <T>{
         return -1;
     }
 
+    public T obtem(int posicao){
+        return this.busca(posicao);
+    }
+
     @Override
     public String toString() {
         StringBuilder s = new StringBuilder();
