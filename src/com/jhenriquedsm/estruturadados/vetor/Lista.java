@@ -112,6 +112,13 @@ public class Lista <T>{
         return this.busca(posicao);
     }
 
+    public T limpar(){
+        for (int i = this.tamanho - 1; i >= 0; i--){
+            remover(this.elementos[i]);
+        }
+        return (T) this.elementos;
+    }
+
     @Override
     public String toString() {
         StringBuilder s = new StringBuilder();
